@@ -1,0 +1,59 @@
+# System Files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node modules if you add them later
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug log from npm
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Distribution directories
+dist/
+build/
+
+# Local development server files
+.cache/
+.temp/
+
+# Temporary files
+*.log
+*.tmp
+.DS_Store
+
+# Media files that might be used for testing
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.mp4
+*.mov
+*.avi
+*.pdf
+
+# IDE specific files
+*.iml
+*.iws
+.idea_modules/
+.vs/
+.project
+.classpath
+.settings/

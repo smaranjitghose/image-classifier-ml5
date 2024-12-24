@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Classifier</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- ML5.js Library -->
+    <script src="https://unpkg.com/ml5@latest/dist/ml5.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Image Classifier</h1>
+        
+        <!-- Model Loading Status -->
+        <div id="model-status" class="status">
+            Loading model...
+        </div>
+
+        <!-- Upload Section -->
+        <div class="upload-section">
+            <input type="file" id="image-input" accept="image/*" class="hidden">
+            <label for="image-input" class="upload-button">
+                Choose Image or Drop Here
+            </label>
+            <p class="info">Supported formats: JPG, PNG</p>
+        </div>
+
+        <!-- Preview Section -->
+        <div class="preview-section hidden">
+            <h2>Preview</h2>
+            <div class="image-container">
+                <img id="preview-image" alt="Preview">
+            </div>
+            
+            <!-- Loading Spinner -->
+            <div id="loading-spinner" class="spinner hidden"></div>
+
+            <!-- Results Section -->
+            <div id="results" class="results-container">
+                <h2>Classification Results</h2>
+                <div id="predictions" class="predictions">
+                    <!-- Predictions will be inserted here -->
+                </div>
+            </div>
+
+            <!-- Reset Button -->
+            <button id="reset-button" class="reset-button">
+                Try Another Image
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
