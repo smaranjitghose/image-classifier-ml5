@@ -49,6 +49,12 @@ build/
 *.avi
 *.pdf
 
+# But allow files in assets directory
+!assets/**/*.jpg
+!assets/**/*.jpeg
+!assets/**/*.png
+!assets/**/*.gif
+
 # IDE specific files
 *.iml
 *.iws
