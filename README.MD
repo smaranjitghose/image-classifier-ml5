@@ -14,7 +14,7 @@ An interactive web application that uses ML5.js and MobileNet to classify images
 
 ## 🚀 Demo
 
-[Live Demo](#) <!-- Add your deployed application URL here -->
+[Live Demo](https://img-m5-class.netlify.app/) 
 
 **Input**
 ![Application Screenshot](./assets/demo_v1_1.png) 
@@ -60,7 +60,7 @@ cd Image-Classifier-ML5
 
 ## 🤝 Contributing
 
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](#).
+Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/smaranjitghose/image-classifier-ml5/issues).
 
 ## 📝 License
 
